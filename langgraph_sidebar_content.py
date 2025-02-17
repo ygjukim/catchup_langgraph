@@ -102,3 +102,33 @@ def LG_QuickStart_02_sidebar():
         - [Youtube Clip](https://www.youtube.com/playlist?list=PLRQGNaa1hGF3Xr-IL21Y6w7OKa-8ts7m5)
     """
     )
+
+def LG_QuickStart_03_sidebar():
+    st.sidebar.header("LangGraph Adding Memory to the Chatbot 🧰")
+    st.sidebar.markdown(
+        """
+        Tool : LangGraph Memory, Checkpointers, ToolNode, tools_condition, get_state
+        \nThis page covers the basics of memory management in LangGraph.
+    """
+    )
+    st.sidebar.markdown(
+        """
+        ## Items to study in this example:
+
+        - [LangGraph QuickStart 03](https://langchain-ai.github.io/langgraph/tutorials/introduction/#part-3-adding-memory-to-the-chatbot)
+        - [CoLab Source](https://colab.research.google.com/drive/1SARxtUTLUpLi4tX0v4E1oIC_xe1nhQa_?usp=sharing)
+        - [How to add memory to your graph](https://langchain-ai.github.io/langgraph/how-tos/persistence/)
+        - [Checkpointers-MemorySaver](https://langchain-ai.github.io/langgraph/reference/checkpoints/#memorysaver)
+        - [ToolNode](https://langchain-ai.github.io/langgraphjs/reference/classes/langgraph_prebuilt.ToolNode.html)
+        - [ToolNode API Reference](https://langchain-ai.github.io/langgraphjs/reference/classes/langgraph_prebuilt.ToolNode.html)
+        - [tools_condition](https://langchain-ai.github.io/langgraph/reference/prebuilt/#toolinvocation)
+        - [graph.get_state](https://langchain-ai.github.io/langgraph/how-tos/human_in_the_loop/time-travel/)
+    """
+    )
+    st.sidebar.markdown(
+        """
+        ## Youtube Clip
+
+        - [Youtube Clip](https://www.youtube.com/playlist?list=PLRQGNaa1hGF12WIRH4Mb0UPMEYMlFT06v)
+    """
+    )
